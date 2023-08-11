@@ -17,7 +17,7 @@
             <x-splade-checkbox name="is_active" value="1" label="{{ __('Is active?') }}" />
             <br />
 
-            <x-splade-select name="participants[]" label="{{ __('Participants') }}" :options="$users" multiple choices />
+            <x-splade-select name="users[]" label="{{ __('Participants') }}" :options="$users" multiple choices />
             <br />
 
             <x-splade-file name="logo" label="{{ __('Logo') }}" filepond preview accept="image/png" />

@@ -1,4 +1,4 @@
-# Laravel 9 透過 Blade 視圖建置單頁應用程式
+# Laravel 10 透過 Blade 視圖建置單頁應用程式
 
 引入 protonemedia 的 laravel-splade 套件來擴增透過 Blade 視圖建置單頁應用程式，能在使用網站時，只載入一個頁面，並在網頁更新時，透過 JavaScript API 同步更新部份網頁。
 
