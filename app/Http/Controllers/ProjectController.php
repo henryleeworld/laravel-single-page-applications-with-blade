@@ -16,9 +16,9 @@ class ProjectController extends Controller
     {
         return view('projects.index', [
             'projects' => SpladeTable::for(Project::class)
-                ->column('id')
-                ->column('name')
-                ->column('actions')
+                ->column('id', __('ID'))
+                ->column('name', __('Name'))
+                ->column('actions', __('Actions'))
                 ->paginate(15),
         ]);
     }

@@ -10,7 +10,7 @@
             <x-splade-cell actions>
                 <Link href="{{ route('projects.edit', $item) }}">{{ __('Edit') }}</Link>
                 <x-splade-form action="{{ route('projects.destroy', $item) }}" method="delete" confirm>
-                    <x-splade-submit label="Delete" class="bg-red-500 text-white" />
+                    <x-splade-submit label="{{ __('Delete') }}" class="bg-red-500 text-white" />
                 </x-splade-form>
             </x-splade-cell>
         </x-splade-table>

@@ -11,13 +11,13 @@ class UserController extends Controller
     {
         return view('users', [
             'users' => SpladeTable::for(User::class)
-                ->column('id')
-                ->column('name', sortable: true, searchable: true)
-                ->column('email')
-                ->column('actions')
+                ->column('id', __('ID'))
+                ->column('name', label: __('Name'), sortable: true, searchable: true)
+                ->column('email', __('E-Mail'))
+                ->column('actions', __('Actions'))
                 ->perPageOptions([15, 50, 100, 200])
                 ->defaultSort('name')
-                ->withGlobalSearch(columns: ['name', 'email'])
+                ->withGlobalSearch(__('Search...'), columns: ['name', 'email'])
                 ->paginate(15),
         ]);
     }

@@ -1,4 +1,4 @@
-# Laravel 10 透過 Blade 視圖建置單頁應用程式
+# Laravel 11 透過 Blade 視圖建置單頁應用程式
 
 引入 protonemedia 的 laravel-splade 套件來擴增透過 Blade 視圖建置單頁應用程式，能在使用網站時，只載入一個頁面，並在網頁更新時，透過 JavaScript API 同步更新部份網頁。
 
@@ -34,8 +34,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/uFb38L7.png)
+![](https://i.imgur.com/eoratpi.png)
 > 建立新的專案
 
-![](https://i.imgur.com/KhvVYG5.png)
+![](https://i.imgur.com/9T7UfOC.png)
 > 不用從伺服器載入整個頁面，所以會提升性能與動態體驗
